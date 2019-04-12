@@ -7,25 +7,32 @@ public class JavaMethods1 {
 	public static void main(String[] args) {
 		
 		JavaMethods1 obj=new JavaMethods1();
-		obj.isSmallest(25, 3, 29);
+		
+		System.out.println("The smallest number is "+obj.isSmallest(23, 13, 29));;
+		System.out.println("The largest number is "+obj.isLargest(123, 93, 29));;
 		
 	}
-	
-	void isSmallest(int a, int b, int c) {
+	int isSmallest(int a, int b, int c) {
+		int min=a;
 		
-		if (a<b && a<c) {
-			System.out.println("The smallest number is "+a);
-		}else if (a<b && c<a) {
-			System.out.println("The smallest number is "+c);
-		}else if (b<a && b<c){
-			System.out.println("The smallest number is "+b);
-		}else if (b<a && c<b) {
-			System.out.println("The smallest number is "+c);
-		}else if (c<a && b<c) {
-			System.out.println("The smallest number is "+b);
+		if (b<a){
+			min=b;
+		}else if(c<min) {
+			min=c;
 		}
+	   return min;
 	}
 	
+	int isLargest(int a, int b, int c) {
+		int max=a;
+		
+		if (b<a){
+			max=b;
+		}else if(c<max) {
+			max=c;
+		}
+	   return max;
+	}
 	
 	
 	

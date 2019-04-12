@@ -7,13 +7,13 @@ public class JavaMethods2 {
    public static void main(String[] args) {
 	
 	   JavaMethods2 obj=new JavaMethods2();
-	   obj.isAverage(25, 45, 65);
+	   System.out.println("The average of 3 numbers is "+obj.isAverage(25, 45, 5));
 	     
    }	
 	
-	void isAverage(int a,int b,int c) {
+	int isAverage(int a,int b,int c) {
 		
-		System.out.println("Average of 3 numbers is "+(a+b+c)/3);
+		return (a+b+c)/3;
 	}
 	
 	

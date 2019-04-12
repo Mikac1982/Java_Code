@@ -1,18 +1,27 @@
 package com.class20;
 
 public class AccessModifiers {
-
-	public static void main(String[] args) {
+    
+	// VARIABLES:
+	private String name="John";
+	String name1="Bilal";          //default variable
+	protected String name2="Asha";
+	public String name3="Tetiana";
 	
+	public static void main(String[] args) {
+		
+	//BEHAVIORS:
 		AccessModifiers obj=new AccessModifiers();
-		
+		//protected
 		System.out.println(obj.reverse("How are you?"));
-		
+		//public
 		System.out.println(obj.isPalindrome("madam"));
-		
+		//private
 		String[] array=obj.getWordsFromString("Have a good night students");
     	for (String word:array) {
     		System.out.println(word);
+    	//default	
+    	obj.sayHello();
     	}
       
 	}
@@ -57,5 +66,10 @@ public class AccessModifiers {
 		
 		return words;
 	}
+	
+	void sayHello() {
+		System.out.println("Hello students");
+	}
+	
 	
 }

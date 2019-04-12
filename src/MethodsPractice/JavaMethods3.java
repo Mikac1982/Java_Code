@@ -9,30 +9,20 @@ public class JavaMethods3 {
 	public static void main(String[] args) {
 		
 		JavaMethods3 obj=new JavaMethods3();
-		obj.middleChar();
+		obj.middleChar("Beautifuls");
 		
 		
 	}
 	
-	void middleChar() {
+	void middleChar(String str) {
 			
-	String str="Saturday";
-	int size=str.length();  //8
+	int length=str.length();  
 		
-	   int length = 0;
-	   int position = 0;
-	   
-	   if (size%2==0) {
-		   position=size/2-1;
-		   length=2;
-	   }else if (size%2!=0) {
-		   position=size/2;
-		   length=1;
-		  
+	   if (length%2==0) {
+		   System.out.println(str.charAt(length/2-1)+""+str.charAt(length/2));
+	   }else if (length%2!=0) {
+		   System.out.println(str.charAt(length/2));
 	   }
-	   System.out.println(str.substring(position, position+length));
-	
-	
 	
 	}
 	
