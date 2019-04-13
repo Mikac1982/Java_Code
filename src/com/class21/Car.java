@@ -3,7 +3,7 @@ package com.class21;
 public class Car {
 
 	public String color;          //null
-	public static int totalCars;  //0+1=1+1=2  //we have ONLY ONE COPY
+	public static int totalCars;  //0 +1=1+1=2  //we have ONLY ONE COPY
 	
 	
 	public static void main(String[] args) {

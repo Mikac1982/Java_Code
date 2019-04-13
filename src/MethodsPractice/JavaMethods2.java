@@ -7,7 +7,7 @@ public class JavaMethods2 {
    public static void main(String[] args) {
 	
 	   JavaMethods2 obj=new JavaMethods2();
-	   System.out.println("The average of 3 numbers is "+obj.isAverage(25, 45, 5));
+	   System.out.println("The average of 3 numbers is "+obj.isAverage(25, 45, 65));
 	     
    }	
 	

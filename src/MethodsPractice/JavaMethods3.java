@@ -10,8 +10,7 @@ public class JavaMethods3 {
 		
 		JavaMethods3 obj=new JavaMethods3();
 		obj.middleChar("Beautifuls");
-		
-		
+			
 	}
 	
 	void middleChar(String str) {
