@@ -2,14 +2,14 @@ package com.class22;
 
 public class StaticVsNonStatic {
 
-	public String name="John";  //instance variable
-	public static String lastName="Snow";
+	public String name="John";            //instance variable
+	public static String lastName="Snow"; //static variable
 	
 	public static void main(String[] args) {
 		
 		StaticVsNonStatic obj=new StaticVsNonStatic();	
 		obj.getInfo();
-		getInfo1(); //within same class we can call it by using method/variable name
+		getInfo1(); //within same class we can call it just by using method/variable name
 		
 		System.out.println(lastName); //Snow
 		System.out.println(obj.name); //John -instance var we can access true the object

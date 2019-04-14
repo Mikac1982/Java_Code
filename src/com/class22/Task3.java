@@ -10,7 +10,9 @@ public class Task3 {
 		System.out.println("This is a private constructor");
 		
 	}
-	
+
+	//when we make constructor PRIVATE, we can only have one instance of that class and
+	// that instance of the class will be ONLY within the SAME class
 	public static void main(String[] args) {
 		
 		Task3 obj1=new Task3();

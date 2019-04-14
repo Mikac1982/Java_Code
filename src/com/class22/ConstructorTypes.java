@@ -5,19 +5,20 @@ public class ConstructorTypes {
 	//default constructor-no parameters
 	
 //	ConstructorTypes(){
-//		System.out.println("I am a constructor with no parameters");
+//		System.out.println("I am a constructor with NO parameters");
 //	}
 	
+	//parameterized constructor
 	ConstructorTypes(String str ){
-		System.out.println("I am a constructor with 1 parameter "+str);
+		System.out.println("I am a constructor with 1 parameter "+str);//str-local variable to a constructor
 	}
 	
 	ConstructorTypes(int a, String str){
-		System.out.println("I am a constructor with 1 parameter "+a+" and "+str);
+		System.out.println("I am a constructor with 2 parameters "+a+" and "+str);
 		
 	}
 	
-	public static void main(String[] args) { //str - is a local variable to a constructor
+	public static void main(String[] args) { 
 		
 	    ConstructorTypes obj1=new ConstructorTypes("String1"); //executions jumps to line 7
 		

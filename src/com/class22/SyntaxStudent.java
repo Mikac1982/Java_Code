@@ -15,10 +15,10 @@ public class SyntaxStudent {
 	public static int batchNumber=4;
 	
     //instance variables (not initialized)
-	public String studentName;
-	public String studentLastName;
+	public String studentName;     //=Asha
+	public String studentLastName; //=Noman
 	
-	//CONSTRACTOR with parameters
+	//CONSTRACTOR with parameters -we use this to pass the values into instance variables
 	public SyntaxStudent(String name, String lastName) {
 		studentName=name;
 		studentLastName=lastName;

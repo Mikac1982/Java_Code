@@ -18,7 +18,9 @@ public class Task1 {
 	
 	
 
-	//Write program that have static constructor and observe result.
+	//4.Write program that have static constructor and observe result.
+	
+	//WE CAN NOT MAKE A CONSTRUCTOR AS STATIC!
 	
 	// static public Task4() {  not possible to use static for constructor
 	//}

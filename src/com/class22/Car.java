@@ -19,12 +19,12 @@ public class Car {
 	    Car obj=new Car();  //new Car() - when we create an object constructor is called automatically (by default)
 		
 		//Car   - CLASS NAME
-		//obj   - REFERENCE NAME/OBJECT NAME
+		//obj   - REFERENCE VARIABLE/OBJECT NAME
 		// =    - ASSIGNING OPERATOR
 		//NEW   - KEYWORD THAT CREATES AN OBJECT
 		//Car() - CONSTRUCTOR	
 		
-	    // constructor will initialize Object and it will give deafult value to any global variable 
+	    // constructor will initialize Object and it will give DEFAULT value to any GLOBAL variable 
 	    // that was not initialized 
 	    
 	    System.out.println(obj.color);   //null
@@ -37,7 +37,7 @@ public class Car {
 	public static void hello() { 
 		//before using local variable we have to initialize it 
 		String name;
-	//	System.out.println(name); compalier will give an error 
+	//	System.out.println(name); compiler will give an error 
 		
 		System.out.println("I am static hello method");
 	}
