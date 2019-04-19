@@ -14,9 +14,11 @@ public class Task1 {
 	//	System.out.println("The area of a rectangle is "+(a*b));
 	//	return a*b;
 	//}  compiler gives an error -NO RETURN TYPE
+	// 
 	
 	public void getArea(int a, int b) {
 		System.out.println("The area of a rectangle is "+(a*b));
+		
 	}
 	
     public void getArea(int a) {

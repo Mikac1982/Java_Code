@@ -5,16 +5,17 @@ public class Test {
 	public static void main(String[] args) {
 		System.out.println("---Creating Employee object---");
 		Employee emp=new Employee();
-		System.out.println(Employee.department); //STATIC variable(ACCESSING TRUE THE CLASS DIRECTLY)
+		
+		System.out.println(Employee.department); //STATIC variable(accessing through the CLASS(NAME) DIRECTLY!
 		Employee.work();                         //static method
-	//	emp.work();  NOT PREFERED WAY 
-		emp.salary=90000;
+	//	emp.work();  NOT PREFERED WAY because it's static
+		emp.salary=90000;      //INSTANCE variable/methods accessing through OBJECT
 		emp.getPaid();
         
 		
-		System.out.println("---Creating SrumTeam object---");
+		System.out.println("---Creating SCRUMTEAM object---");
 		ScrumTeam st=new ScrumTeam();
-		ScrumTeam.work(); //static
+		ScrumTeam.work(); //static method
 		st.salary=100000;
 		st.getPaid();
 		st.artifacts="Product Backlog,Sprint Backlog, BurnDown chart";
@@ -22,7 +23,7 @@ public class Test {
 		st.attendScrumMeetings();
 		st.workOnArtifacts();
 		
-		System.out.println("---Creating Developer object---");
+		System.out.println("---Creating DEVELOPER object---");
 		Developer dev =new Developer();
 		Developer.work();  //static method
 		dev.salary=120000;
@@ -33,8 +34,8 @@ public class Test {
 		dev.attendScrumMeetings();
 		dev.code();
 		
-		System.out.println("---Creating Tester object---");
-		Tester qa =new Tester();
+		System.out.println("---Creating TESTER object---");
+		Tester qa =new Tester();     //QA-quality analist
 		Tester.work();  //static method
 		qa.salary=100000;
 		qa.getPaid();
@@ -44,7 +45,7 @@ public class Test {
 		qa.attendScrumMeetings();
 		qa.test();
 	
-		System.out.println("---Creating Bussiness Analyst object---");
+		System.out.println("---Creating BUISSNESS ANALYST object---");
 		BussinessAnalyst ba =new BussinessAnalyst();
 		ba.salary=85000;
      	ba.getPaid();
@@ -54,7 +55,7 @@ public class Test {
 		ba.attendScrumMeetings();
 		ba.writeUserStories();
 		
-		System.out.println("---Creating Scrum Master object---");
+		System.out.println("---Creating SCRUM MASTER object---");
 		ScrumMaster sm =new ScrumMaster();
 		sm.salary=90000;
 		sm.getPaid();
@@ -64,7 +65,7 @@ public class Test {
 		sm.attendScrumMeetings();
 		sm.driveScrumMeetings();
 		
-		System.out.println("---Creating Product Owner object---");
+		System.out.println("---Creating PRODUCT OWNER object---");
 		ProductOwner po =new ProductOwner();
 		po.salary=150000;
 		po.getPaid();
@@ -75,7 +76,7 @@ public class Test {
 		po.prioritizeBacklog();
 		po.talkToTheClient();
 			
-		System.out.println("---Creating Front End Developer object---");
+		System.out.println("---Creating FRONT END Developer object---");
 		FrontEnd fed =new FrontEnd();
 		fed.salary=122000;
 		fed.getPaid();
@@ -86,7 +87,7 @@ public class Test {
 		fed.code();
 		fed.doHtml();
 		
-		System.out.println("---Creating Back End Developer object---");
+		System.out.println("---Creating BACK END Developer object---");
 		BackEnd bed =new BackEnd();
 		bed.salary=121000;
 		bed.getPaid();
@@ -97,7 +98,7 @@ public class Test {
 		bed.code();
 		bed.doSql();	
 		
-		System.out.println("---Creating Manual Tester object---");
+		System.out.println("---Creating MANUAL TESTER object---");
 		ManualTester mqa =new ManualTester();
 		mqa.salary=80000;
 		mqa.getPaid();
@@ -108,7 +109,7 @@ public class Test {
 		mqa.test();
 		mqa.testManualy();
 		
-		System.out.println("---Creating Automation Tester object---");
+		System.out.println("---Creating AUTOMATION TESTER object---");
 		AutomationTester aqa =new AutomationTester();
 		aqa.salary=110000;
 		aqa.getPaid();

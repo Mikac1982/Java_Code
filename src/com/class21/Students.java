@@ -30,7 +30,7 @@ public class Students {
 	    student3.studentID=9012;
         numberOfStudents++;
     
-	System.out.println("Total number of students is "+numberOfStudents);
+       System.out.println("Total number of students is "+numberOfStudents);
 	
 	
 	}	
