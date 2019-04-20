@@ -6,7 +6,7 @@ public class PaymentTest {
 		
 		Payment parent=new Payment();
 		parent.makePayment();
-		
+		//accessing child method
 		MasterCard mc=new MasterCard();
 	    mc.makePayment();
 	    

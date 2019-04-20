@@ -8,6 +8,7 @@ public class Parent {
 	}
 }
 class Child extends Parent{
+	
 	//WE CAN NOT OVERRIDE CONSTRUCTOR
 //	Parent(){
 //		System.out.println("I am a child constructor");

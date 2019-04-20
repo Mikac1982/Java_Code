@@ -21,7 +21,7 @@ class Visa extends Payment{
 	public void makePayment() { //OVERRIDING method
 		System.out.println("We can make payment with Visa and 1.5% fee");
 	}
-	public void annualFee() {
+	public void annualFee() {  //behavior that belongs only to the child class
 		System.out.println("Visa card has annual fee");
 	}
 }	

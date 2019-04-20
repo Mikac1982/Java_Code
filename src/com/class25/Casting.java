@@ -8,7 +8,7 @@ public class Casting {
 		double a=10;  //
 		System.out.println(a); //10.0
 		
-	//	int b=10.0;  can put double in smaller integer box
+	//	int b=10.0;  cannot put double in smaller integer box
 		//EXPLICIT/Manual/Narrowing--programmer takes care of conversion
 		double b=10.0;
 		int c=(int)(b);
@@ -17,17 +17,18 @@ public class Casting {
 		int i=130;
 	//	byte by=130;  compiler wont allow; byte=-127 to +128
 		
-		byte by=(byte)(i);
+		byte by=(byte)(i); //we converted it manually
 		System.out.println(by); //-126
 		
 		//TYPE CASTING FOR OBJECTS
 		//UPCasting-->compiler takes care of conversion
 		Payment pay=new MasterCard();
 		
-	//	MasterCard mc=new Payement(); --> compiler won't allow you /cant put parent class to child class
+	//	MasterCard mc=new Payment(); --> compiler won't allow you /can't put parent class to child class
 		
-		//DOWNcasting
-	    MasterCard mc=(MasterCard)pay;
+		//DOWNcasting-we have to do it manually 
+		MasterCard mc=(MasterCard)new Payment();
+	//or MasterCard mc1=(MasterCard)pay;
 		
 		
 	}

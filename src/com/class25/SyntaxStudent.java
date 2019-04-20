@@ -14,7 +14,7 @@ public class SyntaxStudent extends Student{
 	}
 	//creating child specific private method doResearch
 	private void doResearch() {
-		System.out.println("Syntax Students must make u");
+		System.out.println("Syntax Students must make uncle Google as a best friend");
 	}
 	
 }
