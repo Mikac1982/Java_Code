@@ -1,0 +1,22 @@
+package com.class27;
+
+public class Hello {
+
+	String str;
+	static int num=100;
+	
+	public void hello() {   //implemented method (have method body)
+		System.out.println("Hello");
+	}
+	
+	public static void hello1() {
+		System.out.println("Hello1");
+	}
+	
+	public Hello() {  //implemented constructor
+		System.out.println("I am a constructor");
+	}
+	
+}
+
+

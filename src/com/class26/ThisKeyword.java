@@ -8,7 +8,7 @@ public class ThisKeyword {
 		System.out.println("No parameters here");
 	}
 	
-	public ThisKeyword(int num1, int num2) { //we will use this 
+	public ThisKeyword(int num1, int num2) { //we will use this in automation (this inside constructors)
 		this.num1=num1;
 		this.num2=num2;	
 	}

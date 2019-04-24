@@ -10,6 +10,8 @@ public class EmployeeTest {
 		
 		Tester tester2=new Tester("Mehmet", "Yuser", 110000);
 		tester2.displayDetails();
+		
+		
 	}
 	
 	

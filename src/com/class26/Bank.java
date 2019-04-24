@@ -19,10 +19,10 @@ class BankA extends Bank{
 		deposite=1000;
 		System.out.println("Bank A returns "+deposite+"$");
 	}
-	public final void getBalance(int a) {
+//	public final void getBalance(int a) {   we can overload final method
 		//deposite=1000;
-		System.out.println("Bank A returns "+deposite+"$");
-	}
+//		System.out.println("Bank A returns "+deposite+"$");
+//	}
 }
 class BankB extends Bank{
 	public void getBalance() {
