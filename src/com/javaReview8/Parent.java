@@ -4,7 +4,6 @@ public class Parent {
 
 	int a;
 	
-	
 	Parent(){
 	//	a=12;  
 		System.out.println("I am parent class");
@@ -27,7 +26,7 @@ public class Parent {
 	protected int protectedInt() {
 		return 0;
 	}
-	
+	//default method
 	void noReturn() {
 		System.out.println("I am default");
 	}

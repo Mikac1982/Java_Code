@@ -1,12 +1,11 @@
 package com.javaReview8;
 
 public class Child extends Parent{
-
+   //we have access to both constructor, from parent and child class
 	Child() {
 		System.out.println("I am from Child"); //I am parent class
 		                                       // I am from Child
 	}
-	
 	
 	public static void main(String[] args) {
 		
