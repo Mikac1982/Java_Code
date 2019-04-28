@@ -13,12 +13,11 @@ public class ChildSuper extends MainSuper{
 	 }
 	 
 	 ChildSuper(String a, String b){
-		 super(a,b);
+		// super(a,b);
 		System.out.println("This is from child with 2 parameter "+b);
 	 }
 	 
 	 public void getDetails() {
-		
 		System.out.println(super.name+" "+super.lettuce+" "+super.grade); 
 		System.out.println(name+" "+lettuce+" "+grade); //we can use this. as well
 	 }
@@ -26,7 +25,7 @@ public class ChildSuper extends MainSuper{
 	public static void main(String[] args) {
 			
 			ChildSuper obj1=new ChildSuper("hello","bye");
-			ChildSuper obj2=new ChildSuper("yes");
+		//	ChildSuper obj2=new ChildSuper("yes");
 			System.out.println("-----------------------");
 			obj1.getDetails();
 		}

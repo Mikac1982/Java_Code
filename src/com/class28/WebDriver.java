@@ -8,53 +8,30 @@ public interface WebDriver {
 
 	void openBrowser();
 	void closeBrowser();
-	void maximizeWindow();
-	void findElement();
+	public void maximizeWindow();
+	void findElements();
 	
 }
-class ChromeDriver implements WebDriver{
+class ChromeDriver implements WebDriver{ //CONCRETE CLASS
+	
 	@Override
 	public void openBrowser() {
-	System.out.println("Chrome can open browser");
+	System.out.println("Opening chrome browser");
 	}
 
 	@Override
 	public void closeBrowser() {
-		System.out.println("Chrome can close browser");
+		System.out.println("Closing chrome browser");
 	}
 
 	@Override
 	public void maximizeWindow() {
-		System.out.println("Chrome can maximize windows");
+		System.out.println("Maximizing chrome windows");
 	}
 
 	@Override
-	public void findElement() {
-		System.out.println("Chrome can find elements");
+	public void findElements() {
+		System.out.println("Find elements in chrome browser");
 		
 	}
-}
-class FirefoxDriver implements WebDriver{
-
-	@Override
-	public void openBrowser() {
-		System.out.println("Firefox can open browser");
-	}
-
-	@Override
-	public void closeBrowser() {
-		System.out.println("Firefox can close browser");
-	}
-
-	@Override
-	public void maximizeWindow() {
-		System.out.println("Firefox drivercan maximize window");
-	}
-
-	@Override
-	public void findElement() {
-		System.out.println("Firefox can find elements");
-	}
-	
-	
 }

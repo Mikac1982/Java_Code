@@ -24,7 +24,7 @@ public abstract class Vehicle { //abstract class
 	
 }
 abstract class Car extends Vehicle{ //if we do not want to provide implementation we make class ABSTRACT again!
-	//  by default compiler will create a default constructor and
+	// by default compiler will create a default constructor and
 	// by default inside child constructor we call a parent child constructor (if we do not create own)
 	//Car(){ 
 	//super();

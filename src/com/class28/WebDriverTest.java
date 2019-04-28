@@ -8,13 +8,13 @@ public class WebDriverTest {
 		obj.openBrowser();
 		obj.closeBrowser();
 		obj.maximizeWindow();
-		obj.findElement();
+		obj.findElements();
 		
 		WebDriver obj2=new FirefoxDriver();
 		obj2.openBrowser();
 		obj2.closeBrowser();
 		obj2.maximizeWindow();
-		obj2.findElement();
+		obj2.findElements();
 		
 		
 	}

@@ -1,4 +1,4 @@
-package com.class24again;
+package com.class24Again;
 
 public class Employee {
     //OVERRIDEN method
