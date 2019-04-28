@@ -14,12 +14,11 @@ public class Student {
 	
 	public void setAge(int age) {
 		if(age>=18) {
-		   this.age=age;
+		   this.age=age; 
 		}
 	}
 	
 	//create GETTERS to return the value of the variables
-	
 	public String getName() {
 		return name;
 	}

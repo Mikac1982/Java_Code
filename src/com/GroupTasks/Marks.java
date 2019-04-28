@@ -23,9 +23,8 @@ class A extends Marks{
         this.science=science;
     }
 
-    @Override
     void getPercentage() {
-        // TODO Auto-generated method stub
+        
         double mathpercantage=(math*100)/100;
         double englishpercantage=(english*100)/100;
         double sciencepercantage=(science*100)/100;
@@ -48,7 +47,7 @@ class B extends Marks{
 
     @Override
     void getPercentage() {
-        // TODO Auto-generated method stub
+      
         double mathpercantage=(math*100)/100;
         double englishpercantage=(english*100)/100;
         double sciencepercantage=(science*100)/100;

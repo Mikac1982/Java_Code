@@ -1,6 +1,6 @@
 package com.GroupTasks;
 
-public class MarkTest {
+public class MarksTest {
 
 	public static void main(String[] args) {
 		

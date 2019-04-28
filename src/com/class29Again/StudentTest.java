@@ -6,14 +6,14 @@ public class StudentTest {
 		
 		Student obj=new Student();
 		obj.setName("Alex");
-		obj.setAge(17);
+		obj.setAge(17); //compiler gives default value 0 because we didn't pass validation/condition
 		
 		System.out.println(obj.getName()+" "+obj.getAge());
 		
 	}
 	
 	
-	
+	 
 	
 	
 	
