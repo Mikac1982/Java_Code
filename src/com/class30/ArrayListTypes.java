@@ -27,7 +27,7 @@ public class ArrayListTypes {
 		}
 		
 		//ArrayList -> CLASS!                                   //creating OBJECT of ArrayList
-        ArrayList<Boolean> booleanArrayList=new ArrayList(); //we do not have to use <> at the end
+        ArrayList<Boolean> booleanArrayList=new ArrayList();    //we do not have to use <> at the end
 		booleanArrayList.add(true);
 		booleanArrayList.add(false);
 		

@@ -10,8 +10,8 @@ public class Task1 {
 	Find the size of your arrayList and print all values from that
 	*/
 	public static void main(String[] args) {
-		
-		ArrayList<String> names=new ArrayList<String>(); //GENERIC LIST- specifying data type
+		//GENERIC LIST- specifying data type
+		ArrayList<String> names=new ArrayList<String>(); 
 		names.add("Milena");
 		names.add("Lola");
 		names.add("Zaki");

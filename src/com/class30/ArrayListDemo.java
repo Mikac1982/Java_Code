@@ -6,9 +6,9 @@ public class ArrayListDemo {
 
 	public static void main(String[] args) {
 		
-		//using this class we are trying to represent group of ...
+		//using this class we are trying to represent group of String Objects...
 		ArrayList<String> greetings=new ArrayList<String>();  //GENERIC LIST
-		greetings.add("Hello"); //storing values based on intex
+		greetings.add("Hello"); //storing values based on index
 		greetings.add("Welcome");
 		greetings.add("Hi");
 		greetings.add("Bye");
@@ -25,7 +25,7 @@ public class ArrayListDemo {
 		
 		System.out.println("-------For Loop-------");
 		for (int i=0; i<greetings.size(); i++) {  //the way we stored that way it print it
-			System.out.println(greetings.get(i));
+			System.out.println(greetings.get(i)); //.get -> method to access all the values
 		}
 		System.out.println("------Advanced Loop--------");
 		for(String greetWords :greetings) {

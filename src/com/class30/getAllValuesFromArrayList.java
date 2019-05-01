@@ -15,14 +15,14 @@ public class getAllValuesFromArrayList {
 		names.add("Samir");
 		
 		// ways to retrieve the value:
-		// 1.way using FOOR LOOP
-		System.out.println("----First way using FOOR LOOP-------");
+		// 1.way using FOR LOOP
+		System.out.println("----First way using FOR LOOP-------");
 		for (int i=0; i<names.size(); i++) {
 			System.out.println(names.get(i)); //to access the all values!
 		}
 		
-		// 2.way using ADVANCED FOOR LOOP
-		System.out.println("----Second way using ADVANCED FOOR LOOP-------");
+		// 2.way using ADVANCED FOR LOOP
+		System.out.println("----Second way using ADVANCED FOR LOOP-------");
 		for (Object name:names) {
 			System.out.println(name);
 		}
