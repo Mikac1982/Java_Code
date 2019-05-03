@@ -5,7 +5,7 @@ import java.util.Iterator;
 
 public class Task4 {
   // Create an arrayList of even numbers from 1 to 50.
-  // Using Integer remove any number that is divisible by 5 from that arrayList.
+  // Using Iterator remove any number that is divisible by 5 from that arrayList.
 	
 	public static void main(String[] args) {
 		

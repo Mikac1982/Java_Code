@@ -15,13 +15,14 @@ public class Task152 {
 		list.add(true);
 		list.add(false);
 		list.add(false);
-		
-		for (int i=0; i<=1; i++) {
-		   for (int j=0; j<=list.size()-1; j++) {
-			   System.out.print(list.get(j)+", ");
-		   }
+		list.addAll(list);
 	
+		System.out.println(list);
 		
-	}
+	//	for (int i=0; i<=1; i++) {
+	//	   for (int j=0; j<=list.size()-1; j++) {
+	//		   System.out.print(list.get(j)+", ");
+	//	   }
+	//}
   }
 }
