@@ -1,6 +1,6 @@
 package oops;
 
-import fruits.*;  //we are importing all the classes from the package fruits(now we can access apple class)
+import com.MapInterface.*;
 
 public class Tutorial {
 

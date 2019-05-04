@@ -6,8 +6,7 @@ import java.util.Iterator;
 public class HashSetIntro {
 
 	public static void main(String[] args) {
-		
-		
+			
 		HashSet<Integer> hset=new HashSet<Integer>();
 		hset.add(12);
 		hset.add(32);
@@ -23,6 +22,7 @@ public class HashSetIntro {
 		hset.add(32);
 		System.out.println(hset.size()); //still 3
 		
+		// TO RETRIVE ALL VALUES we can use:
 		//1. using advanced for loop
 		System.out.println("------usinf Advanced For Loop--------");
 		for (int num:hset) {
@@ -35,8 +35,7 @@ public class HashSetIntro {
 			int num=it.next();
 			System.out.println(num);
 		}
-		
-		
+		//we can not use for loop because it's based on indexes, and here we do not have it-no order
 		
 		
 		

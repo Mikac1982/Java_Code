@@ -9,7 +9,8 @@ public class Q4 {
 	 String str="I am doing fine today";
 	
 	 String newStr=str.substring(5, 15);  
-	 System.out.println(newStr);
+	 System.out.println(newStr);         //doing fine
+	
 	 
 	 String str1="Just keep practicing every day";
 	 

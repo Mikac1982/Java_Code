@@ -27,6 +27,7 @@ public class ArrayTest {
 	CreditCard[] ccArray= {visa1, visa2, visa3, ax1, ax2, ax3};
 	
 	//this is array of objects
+	//using Object type we can store any object class
 	//autoboxing is happening automatically
 	Object[] objectArray= {visa1, ax1, "John", 67, true, 90.09, 'c'}; //using Object type we can store any object class
 	

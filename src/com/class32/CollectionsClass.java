@@ -17,11 +17,11 @@ public class CollectionsClass {
 	System.out.println("Collection before sorting: "+integerList); // [90, 33, 56, 1000]
 	
 	//Collections -> utility class -all methods inside are static! can not create an object
-	Collections.sort(integerList);	//class that works with collections (LIST Array)?
+	Collections.sort(integerList);	//class that works with collections (
 	System.out.println("Collection after sorting: "+integerList);  // [33, 56, 90, 1000]
 	
 	int[] integerArray= {12,57,9799,1};
-	//Arrays -> utility class!
+	//Arrays -> utility class! that works with Arrays
 	Arrays.sort(integerArray); //sort from the smallest to the biggest
 	System.out.println("Array after sorting:");
 	for (int num:integerArray) {
