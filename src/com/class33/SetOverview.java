@@ -1,6 +1,6 @@
 package com.class33;
 
-import java.util.Iterator;
+import java.util.*;
 import java.util.Set;
 import java.util.TreeSet;
 
@@ -9,7 +9,7 @@ public class SetOverview {
 	public static void main(String[] args) {
 	
 	  //wrapper class(String)
-	Set<String> classDays=new TreeSet<>();
+	Set<String> classDays=new LinkedHashSet<>();
 	classDays.add("Tuesday");
 	classDays.add("Wednesday");
 	classDays.add("Thursday");

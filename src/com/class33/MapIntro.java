@@ -47,7 +47,7 @@ public class MapIntro {
 	map.put(null, "Some value");
 	System.out.println(map);   // {null=Some value, 101=Mika, 102=Jane, 103=Bilal, 105=Jane}
 	
-	//adding null key with some value
+	//adding null key with null value
 	map.put(null, null);
 	System.out.println(map);  // {null=null, 101=Mika, 102=Jane, 103=Bilal, 105=Jane}
 

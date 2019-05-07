@@ -10,7 +10,7 @@ public class KeyAndValuesUsingEntrySet {
 		userDetailsMap.put("Name", "Alex Smith");  //1. entry: key=name + value="alex smith"
 		userDetailsMap.put("Salary", "90000");     //2.entry
 		userDetailsMap.put("Department", "IT");    //3.entry
-		userDetailsMap.put("Title", "Automation");
+		userDetailsMap.put("Title", "Automation Tester");
 		System.out.println(userDetailsMap);
 		
 		//RETRIVE KEYS AND VALUES USING ENTRIES:
