@@ -1,5 +1,7 @@
 package com.class35;
 
+import java.io.FileNotFoundException;
+
 public class ThrowsKeyword {
 
 	public static String name="John";
@@ -7,6 +9,7 @@ public class ThrowsKeyword {
 	public static void studentSleeping() throws InterruptedException { //throw responsibility to other method, who ever calls it
 		System.out.println("Student "+name+" is sleeping");
 		Thread.sleep(3000);
+		
 		System.out.println("Give some cofee to "+name);
 	}
 	
@@ -22,7 +25,7 @@ public class ThrowsKeyword {
 		}
 		
 	}
-	public static void main(String[] args)  {//JVM always calls main method
+	public static void main(String[] args) throws InterruptedException, FileNotFoundException {//JVM always calls main method
 		sleepMode();  //this code is executable; calling sleepMode(); 
 	}
 }

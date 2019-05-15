@@ -51,6 +51,11 @@ public class MapIntro {
 	map.put(null, null);
 	System.out.println(map);  // {null=null, 101=Mika, 102=Jane, 103=Bilal, 105=Jane}
 
+	map.clear();
+	System.out.println(map); //{}
+	
+    
+	
 	
 	}
 }

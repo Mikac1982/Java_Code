@@ -13,15 +13,16 @@ public class MultipleCatch {
 		//3 WAYS /METHODS to print name and details of an exception:
 		
 		//1. print the name, details and locations of exception
-	//	e.printStackTrace();
+		e.printStackTrace();
 		
-		System.out.println(e); //2. name of the E an details
+		//2. name of the E an details
+		System.out.println(e); 
 		
 		//3. just print details of Exception
      	System.out.println(e.getMessage());
 		
-		
 		System.out.println("Code of Arithmetic Exception catch");
+		
 	}catch(InterruptedException e) {
 		System.out.println("Code of Interrupted Exception catch");
 	}

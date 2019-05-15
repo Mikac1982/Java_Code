@@ -16,7 +16,7 @@ public class IntQ5 {
 	   }
 	   System.out.println();
 	   
-	        // using atChar();
+	        // using charAt();
 	   
 	   for (int i=str.length()-1; i>=0; i--) {
 		   System.out.print(str.charAt(i));
@@ -30,14 +30,17 @@ public class IntQ5 {
 	   }
 	   System.out.println();
 	   
+	   //Reverse a string word by word:
 	   // fine! be to going is Everything
 	   
 	  String[] arr=str.split(" ");
 	  
       for (String word:arr) {
-    	  
+    	 System.out.print(word+" ");
       }
-		  
+      System.out.println();
+      System.out.println("Reversed string word by word:");
+      
 	  for (int i=arr.length-1; i>=0; i--) {
 		 System.out.println(arr[i]);
 	  }

@@ -1,9 +1,8 @@
 package INTERVIEWQuestions;
 
-public class Swap {
+public class SwapStrings {
   public static void main(String[] args) {
 	
-	// Write a program to swap 2 numbers without a temporary variable?
 	// Swap 2 strings without a temporary variable?  
 	  
 	  String str1 = "Best";

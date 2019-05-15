@@ -3,7 +3,7 @@ package com.class14;
 public class IntQ2 {
   public static void main(String[] args) {
 	  
- // 2.Write a java program to find the second largest number in the array? 
+ //   Write a java program to find the second largest number in the array? 
  //   Maximum and minimum number in the array?	  
 	  
 	int[] array= {52,-9,490,181,-43,-65};

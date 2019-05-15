@@ -19,10 +19,10 @@ public class FinallyBlock {
 	    try {
 	    	System.out.println(a/b); //object is created but nobody catch it 
 	    }finally {
-	    	System.out.println("Finally block code");
+	    	System.out.println("Finally block code");   //java.lang.ArithmeticException
 	    }
 	
-	    System.out.println("Continues code...");
+	    System.out.println("Continues code..."); //no chance to execute
 	
 	}
 	

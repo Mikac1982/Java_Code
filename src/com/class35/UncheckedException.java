@@ -4,6 +4,7 @@ public class UncheckedException {
 
 	public static void main(String[] args) {
 	
+		//UNCKECKED EXCEPTION == RUN-TIME EXCEPTION
 	//for all those exceptions there is a class!	
 		
 		

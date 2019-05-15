@@ -13,7 +13,7 @@ public class ExceptionHandaling2 {
 		System.out.println("Code inside try block"); //we do not see this, do not print
 		
 		//if there is no exception, catch is not getting executed
-		}catch (ArithmeticException e) {  //code comes inside catch code; entier block get executed
+		}catch (ArithmeticException e) {  //code comes inside catch code; entire block get executed
 			System.out.println("Code inside catch block");
 		}
 		
